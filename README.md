@@ -114,7 +114,11 @@ heroku addons:create heroku-postgresql
 ```
 - Add Private Credentials and Config Stuff:
 ```
-git add -f credentials.json token.pickle config.env heroku.yml
+git init
+
+git add .
+
+git add --all -f
 ```
 - Commit new changes:
 ```
