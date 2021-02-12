@@ -91,6 +91,18 @@ python3 generate_drive_token.py
 ```
 python3 generate_drive_token.py
 ```
+- Add Private Credentials and Config Stuff:
+```
+git init
+
+git add .
+
+git add --all -f
+```
+- Commit new changes:
+```
+git commit -m "Added Creds."
+```
 - Install [Heroku cli](https://devcenter.heroku.com/articles/heroku-cli)
 - Login into your heroku account with command:
 ```
@@ -111,18 +123,6 @@ heroku stack:set container
 - Add Heroku Postgres (only if you are deploying it for the 1st time)
 ```
 heroku addons:create heroku-postgresql
-```
-- Add Private Credentials and Config Stuff:
-```
-git init
-
-git add .
-
-git add --all -f
-```
-- Commit new changes:
-```
-git commit -m "Added Creds."
 ```
 - Push Code to Heroku:
 ```
