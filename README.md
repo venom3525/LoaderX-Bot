@@ -84,7 +84,11 @@ Note: You can limit maximum concurrent downloads by changing the value of MAX_CO
 pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 python3 generate_drive_token.py
 ```
-
+## Change Branch
+```
+git checkout BRANCH_NAME
+git pull origin BRANCH_NAME
+```
 ## Deploying on Heroku
 
 - Run the script to generate token file(token.pickle) for Google Drive:
